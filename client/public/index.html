@@ -1,14 +1,39 @@
-<<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        bhaskar
-        <script src="js/main.js"></script>
-    </body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/logiport_index.css">
+		<title>LogiPort</title>
+		<script src="http://www.parsecdn.com/js/parse-1.2.13.min.js"></script>
+	</head>
+	<body>
+		<!-- Login Form -->
+		<div id ="login_header">
+			<div id="login_form">
+				<div class="error_login"></div>
+				<a href="#">
+					<img id="site_logo" src="assets/images/loaded-truck.jpg" height="141px" width="141px"></img>
+				</a>
+				<div class="status"></div>
+					<input type="text" id ="lg_user" placeholder="Username" name="username"/><br/> 
+		    		<input type="password" id = "lg_pass" placeholder="Password" name="password" value=""/><br/> 
+		    		<input type="submit" id = "lg_submit" name="login_submit" value="Log in"/>
+			</div>
+		</div> 
+		
+    	<!-- Sign up Form -->
+    	<div id="signup_form" >
+    		<div id="site_name">Logiport.</div>
+    		<div id="site_des">
+    			 Track your assignment
+    		</div>
+				<input type="text" id ="sg_user" placeholder="Username" name="email" value=""/><br/>
+    			<input type="password" id ="sg_pass" placeholder="Create a Password" name="password" value=""/><br/> 
+				<input type="submit" id = "sg_submit" name="signup" value="Sign up"/>
+    		<div  class="error_signup">
+    		</div>
+    		<div id="footer" style="">Logiport<a href=""><strong style="font-weight: bold"> About us!</strong></a></div>
+    	</div>
+	</div>
+	<script type="text/javascript" src="js/logiport_index.js"></script>
+	</body>
 </html>

@@ -1,0 +1,222 @@
+body{
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	padding: 0px;
+	background-color: #36465d;
+ }
+#login_header{
+  position:relative;
+  padding: 0px;
+  top: 0px;
+  display: block;
+  width:100%;
+  height: 170px;
+  background-color:#fff;
+  z-index: 1;
+ }
+#login_form{
+ 	position: relative;
+ 	width: 1300px;
+ 	height: 160px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: #fff;
+ 	top: 0px;
+  overflow: auto;
+ }
+#login_form .status{
+    position: absolute;
+    left: 217px;
+    top: 34px;
+    color:green;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: monospace;
+ }
+#site_logo{
+ 	position: absolute;
+ 	left: 200px;
+ 	top: 07px;
+  border-radius: 100%;
+ }
+#login_form .error_login{
+ 	position: absolute;
+ 	right: 191px;
+ 	top: 56px;
+ 	height: 26px;
+  /*background-color: red;*/
+ 	width: 367px;
+ 	color: #db3833;
+  opacity: 0.8;
+  text-align: center;
+ 	font-family: Helvetica Neue, arial,sans-serif;
+ 	font-size: 11px;
+  font-weight: bold;
+ 	padding-left:6px;
+ 	padding-top: 7px; 
+ }
+#login_form input[type=submit]{
+ 	position: absolute;
+ 	right: 71px;
+ 	width:103px;
+ 	padding-top: 0px;
+ 	top: 17px;
+ 	height: 29px;
+ 	color: #fff;
+ 	outline: none;
+ 	border: 0px;
+ 	background-color:#4d96c1; 
+ 	cursor: pointer;
+ 	font-weight: bold;
+ 	font-size: 14px;
+ }
+#login_form input[type=text]{
+ 	position: absolute;
+ 	right: 387px;
+ 	top: 17px;
+ 	height: 29px;
+ 	outline: none;
+ 	padding-left: 9px;
+ 	border: 0px solid black;
+ 	border-collapse: collapse;
+ 	color: #222;
+ 	font-family:Helvetica Neue,arial,sans-serif;
+ 	background-color:rgba(252,254,189,1);
+ }
+  #login_form input[type=text]:focus{
+  	background-color: #fff;
+  	border: 1px solid #e6e6e6;
+  }
+#login_form input[type=password]{
+ 	position: absolute;
+ 	right: 191px;
+ 	top: 17px;
+ 	outline: none;
+ 	height: 29px;
+ 	padding-left: 9px;
+ 	border: 0px solid black;
+ 	border-collapse: collapse;
+ 	color: #222;
+ 	font-family:Helvetica Neue,arial,sans-serif;
+ 	-webkit-font-smoothing: antialiased;
+ 	background-color:rgba(252,254,189,1);
+ }
+#login_form input[type=password]:focus{
+ 	background-color: #fff;
+ 	border: 1px solid #E6E6E6; 
+ }
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   #d1d1d1;
+    font-family: helvetica,sans-serif;
+    opacity: 1;
+    font-size: 16px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #8CA3B6;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #8CA3B6;
+}
+#signup_form{
+ 	position:relative;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 400px;
+ 	height: 400px;
+ 	top: 50px;
+ }
+#site_name{
+ 	position: absolute;
+ 	font-weight: bold;
+ 	font-size: 55px;
+ 	color: #fff;
+ 	left: 89px;
+ }
+#site_des{
+ 	position: absolute;
+  top: 67px;
+ 	left:125px; 
+ 	font-size: 14px;
+ 	font-family: Helvetica Neue,arial,sans-serif;
+ 	color: #fff;
+ }
+#signup_form input[name=email]{
+  	position: absolute;
+  	top: 100px;
+  	width: 300px;
+  	height:44px;
+  	left: 49px;
+  	padding-left: 10px;
+  	outline: none;
+  	border:0px;
+  	border-radius: 1px;
+  	border-bottom:1px solid #E6E6E6;
+  	border-collapse: collapse;
+  	color: #222;
+  	font-size: 16px;
+ 	  font-family: Helvetica Neue,arial,sans-serif;
+  }
+#signup_form input[name=password]{
+  	position: absolute;
+  	top: 147px;
+  	width: 300px;
+  	height:44px;
+  	left: 49px;
+  	padding-left: 10px;
+  	color: #222;
+  	outline: none;
+  	border: 0px;
+  	border-radius: 1px;
+  	border-bottom:1px solid #E6E6E6;
+  	border-collapse: collapse;
+  	font-size: 16px;
+ 	  font-family: Helvetica Neue,arial,sans-serif;
+  }
+#signup_form input[type=submit]{
+  	position: absolute;
+  	top: 199px;
+  	left: 49px;
+  	width: 310px;
+  	height: 44px;
+  	color: #fff;
+ 	  outline: none;
+ 	  border: 0px;
+ 	  background-color:#4d96c1;
+ 	  cursor: pointer;
+ 	  font-weight: bold;
+ 	  font-size: 16px;
+}
+.error_signup{
+  position: absolute;
+  top: 251px;
+  left: 49px;
+  height: 18px;
+  width: 310px;
+  /*background-color: yellow;*/
+  color: #ff0066;
+  opacity: 0.971;
+  text-align: center;
+  font-family: Helvetica Neue, arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+#footer{
+  	position: absolute;
+    font-family: helvetica;
+    font-size: 13px;
+    left:143px;
+  	height: 20px;
+  	bottom: 0px;
+  	width: auto;
+    color: #fff;
+}
+#footer a{
+  color:#fff;
+  text-decoration: none; 
+}
+#footer a:hover{
+  text-decoration: underline;
+}
