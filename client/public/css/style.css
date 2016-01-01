@@ -920,7 +920,7 @@ color: #c2c2c2;
   background-size:100% 100%;
 }
 .banner.page-contact {
-  min-height: 400px;
+  min-height: 600px;
   background: url('../assets/images/contact.jpg') no-repeat 0px 0px;
   background-size:100%;
 }
@@ -1259,9 +1259,6 @@ font-size:14px;
 }
 /*-- //services-page --*/
 /*-- about-page --*/
-.about {
-  padding: 80px 0;
-}
 .about-grid-left img{
 width:100%;
 }
@@ -1297,7 +1294,7 @@ padding-left:50px;
   padding-left:50px;
 }
 .about-bottom-last {
-  padding: 80px 0;
+  padding: 0px 0;
 }
 .help-grids{
 background:#05969b;
@@ -1376,7 +1373,7 @@ h3.tittle.tit3 {
 	.callbacks_tabs {
 	  top: 125%;
 	  }
-	.banner-bottom ,.teachers,.about,.help-grids,.about-bottom-last,.typrography,.ser-first,.services,.contact,.facilities,.features{
+	.banner-bottom ,.teachers,.help-grids,.about-bottom-last,.typrography,.ser-first,.services,.contact,.facilities,.features{
 	  padding: 60px 0;
 	  }
 	.teach-head h3,h3.tittle,h2.tittle{
